@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
+.site {
+  overflow-x: hidden !important;
+}
+
 .navbar {
   width: 100%;
   height: 8vh;
@@ -9,6 +13,7 @@
 }
 
 .scroll-down {
+  display: flex;
   background-color: rgb(214, 214, 214, 0.95) !important;
   position: fixed;
   top: 0;
@@ -65,9 +70,6 @@ li {
 }
 
 .header-box {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   background-color: #35b98a;
   box-shadow: inset 5em 5em rgb(255, 187, 0);
 }
